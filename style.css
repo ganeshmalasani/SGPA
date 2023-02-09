@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(180deg,#002640,#000000);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 1s ease infinite;
+    -moz-animation: AnimationName 1s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    padding: 10px;
+        
+}
+
+.main-body{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+    padding: 8px;
+    margin: 8px;
+
+}
+.choice-selector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 8px;
+}
+.main-box{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.marks-1,.marks-2{
+    padding: 10px 30px;
+    padding-bottom: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+input{
+    text-align: center;
+}
+label{
+    padding: 2.5px;
+    margin: 2.5px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+p{
+    padding: 5px;
+}
+.pop-up{
+    padding: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);   
+}
+.open-pop-up{
+    visibility: visible;
+}
+.hide-sem{
+    visibility: hidden;
+}
+.display-sem{
+    visibility: visible;
+}
+select{
+    border-radius: 5px;
+    padding: 7px;
+    margin: 7px;
+}
+.pop-up{
+    padding: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+
+
+    visibility: hidden;
+
+}
+.open-pop-up{
+    visibility: visible;
+}
+.GithubLogo{
+    height: 18px;
+
+
+}
+.source-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+

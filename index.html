@@ -7,135 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>SGPA CALCULATOR - VTU</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
-	body{
-    background: linear-gradient(270deg, #0200a7, #bf00ff);
-            background-size: 400% 400%;
-
-            -webkit-animation: AnimationName 1s ease infinite;
-            -moz-animation: AnimationName 1s ease infinite;
-        animation: AnimationName 10s ease infinite;
-        padding: 10px;
-
-        
-
-
-
-
-        
-
-
-
-    }
-
-.main-body{
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    
-    padding: 8px;
-    margin: 8px;
-
-}
-.choice-selector{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 8px;
-}
-
-
-
-
-
-.main-box{
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 20px;
-    padding: 5px;
-}
-
-.marks-1,.marks-2{
-    padding: 10px 30px;
-    padding-bottom: 15px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
-    
-    
-}
-input{
-    text-align: center;
-}
-label{
-    padding: 2.5px;
-    margin: 2.5px;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-p{
-    padding: 5px;
-}
-.pop-up{
-    padding: 30px;
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 10px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(5px);
-
-
-    
-
-}
-.open-pop-up{
-    visibility: visible;
-}
-.hide-sem{
-    visibility: hidden;
-}
-.display-sem{
-    visibility: visible;
-}
-select{
-    border-radius: 5px;
-    padding: 7px;
-    margin: 7px;
-}
-
-.pop-up{
-    padding: 30px;
-    background-color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 10px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(5px);
-
-
-    visibility: hidden;
-
-}
-.open-pop-up{
-    visibility: visible;
-}
-
-
-</style>	
 </head>
 <body>
     <div class="main-body">
@@ -163,182 +34,59 @@ select{
     </div>
 
 
-<div class="marks-2" id="sem2">
-    <form action="" class="myForm" id="formu">
-    <label align="center" id="maths" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Calculus and Differential Equations</label>
-    <input type="number" name="" id="mat" placeholder="21MAT11" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+    <div class="marks-2" id="sem2">
+        <form action="" class="myForm" id="formu">
+            <label align="center" id="maths" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Calculus and Differential Equations</label>
+            <input type="number" name="" id="mat" placeholder="21MAT11" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
     
-    <label align="center" id="physics" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Chemistry</label>
+            <label align="center" id="physics" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Chemistry</label>
    
-    <input type="number" name="" id="chem" placeholder="21CHEM12" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <input type="number" name="" id="chem" placeholder="21CHEM12" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
    
     
-    <label align="center" id="pspp" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Problem Solving through Programming</label>
-    <input type="number" name="" id="psp" placeholder="21PSP13" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="pspp" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Problem Solving through Programming</label>
+            <input type="number" name="" id="psp" placeholder="21PSP13" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="elnn" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Electronics</label>
-    <input type="number" name="" id="eln" placeholder="21ELN14" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="elnn" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Electronics</label>
+            <input type="number" name="" id="eln" placeholder="21ELN14" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="emee" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Mechanical</label>
-    <input type="number" name="" id="eme" placeholder="21EME15" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="emee" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Mechanical</label>
+            <input type="number" name="" id="eme" placeholder="21EME15" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="chelab" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Chemistry Lab</label>
-    <input type="number" name="" id="chel" placeholder="21CHEL16" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="chelab" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Chemistry Lab</label>
+            <input type="number" name="" id="chel" placeholder="21CHEL16" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="cplab" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Computer Programming Lab</label>
-    <input type="number" name="" id="cpl" placeholder="21CPL17" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="cplab" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Computer Programming Lab</label>
+            <input type="number" name="" id="cpl" placeholder="21CPL17" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="eng" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Communicative English</label>
-    <input type="number" name="" id="egh2" placeholder="21EGH18" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="eng" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Communicative English</label>
+            <input type="number" name="" id="egh2" placeholder="21EGH18" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
     
-    <label align="center" id="sfhh" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Scientific Foundations of Health</label>
-    <input type="number" name="" id="sfh" placeholder="21SFH19" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
+            <label align="center" id="sfhh" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Scientific Foundations of Health</label>
+            <input type="number" name="" id="sfh" placeholder="21SFH19" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-indigo-100 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" >
 
-
-
-
-
-
-
-</form>
-<div class="buttons">
-    <button id="calc" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" onclick="calculate()">Calculate</button><br>
-    <button id="resett" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700s" onclick="resetmadu()">Reset</button>
-    
-</div>
+        </form>
+    <div class="buttons">
+        <button id="calc" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" onclick="calculate()">Calculate</button><br>
+         <button id="resett" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700s" onclick="resetmadu()">Reset</button>
+    </div>
+    <div class="source-code">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="GithubLogo" alt="github-logo">
+        <a href="https://github.com/ganeshmalasani/SGPA" target="_blank"><p>View Code</p>
+        
+        </a>
+    </div>
 </div>
 <div class="pop-up" id="popup">
     <p align="center" class="text-2xl font-bold" id="display-sgpa"></p>
     <button id="close-popup" onclick="closePop()" class="px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >OK</button>
-
-
-
 </div>
-
-
-
-
-<script>
-    function semse(){
-    
-    let semm = (document.getElementById("select-sem")).value;
-    sem = parseInt(semm);
-    let str="";
-    
-    
-    switch(sem){
-        case 1:
-        location.reload();
-        case 2:
-        document.getElementById("formu").reset();
-        s2();
-        break;
-        
-
-
-    }   
-    
-    // let temp=document.getElementById(str); 
-    // temp.classList.add("display-sem");
-    
-}
-function s2()
-{
-    document.getElementById("maths").innerHTML='Advanced Calculus and Numerical Methods';
-    document.getElementById("mat").placeholder="21MAT21";
-    
-    document.getElementById("physics").innerHTML='Physics';
-    document.getElementById("chem").placeholder="21PHY22";
-
-    document.getElementById("pspp").innerHTML='Basic Electrical Engineering';
-    document.getElementById("psp").placeholder="21ELE23";
-
-    document.getElementById("elnn").innerHTML='Elements of Civil Engg';
-    document.getElementById("eln").placeholder="21CIV24";
-
-    document.getElementById("emee").innerHTML="Engineering Visualization";
-    document.getElementById("eme").placeholder="21EVN25";
-
-    document.getElementById("chelab").innerHTML="Physics Lab";
-    document.getElementById("chel").placeholder="21PHYL26";
-
-    document.getElementById("cplab").innerHTML="Electrical Lab";
-    document.getElementById("cpl").placeholder="21ELEL27";
-
-    document.getElementById("eng").innerHTML="English";
-    document.getElementById("egh2").placeholder="21EGH28";
-
-    document.getElementById("sfhh").innerHTML="Innovation and Design Thinking";
-    document.getElementById("sfh").placeholder="21IDT29";
-
-
-}
-
-
-
-
-
-
-function calculate()
-{
-    var m1=get_grade(parseInt(document.getElementById("mat").value));
-    var m2=get_grade(parseInt(document.getElementById("chem").value));
-    var m3=get_grade(parseInt(document.getElementById("psp").value));
-    var m4=get_grade(parseInt(document.getElementById("eln").value));
-    var m5=get_grade(parseInt(document.getElementById("eme").value));
-    var m6=get_grade(parseInt(document.getElementById("chel").value));
-    var m7=get_grade(parseInt(document.getElementById("cpl").value));
-    var m8=get_grade(parseInt(document.getElementById("egh2").value));
-    var m9=get_grade(parseInt(document.getElementById("sfh").value));
-    let temp=document.getElementById("popup");
-    temp.classList.add("open-pop-up");
-   
-    var finalsgpa=(m1*3+m2*3+m3*3+m4*3+m5*3+m6+m7+m8*2+m9)/20;
-    document.getElementById("display-sgpa").innerHTML = "Your SGPA  "+finalsgpa;
-}
-
-function closePop(){
-    let temp=document.getElementById("popup");
-    temp.classList.remove("open-pop-up");
-
-}
-
-
-function get_grade(marks)
-{
-    if(marks>=90)
-    return 10;
-    else if(marks>=80)
-    return 9;
-    else if(marks>=70)
-    return 8;
-    else if(marks>=60)
-    return 7;
-    else if(marks>=55)
-    return 6;
-    else if(marks>=50)
-    return 5;
-    else if(marks>=40)
-    return 4;
-    else
-    return 0;
-}
-function resetmadu()
-{
-    document.getElementById("formu").reset();
-}
-
-  
-
-
-
-
-</script>
+<script src="./script.js"></script>
 </body>
 </html>
