@@ -114,5 +114,7 @@ select{
     justify-content: center;
     align-items: center;
 }
-
+.hide-sub{
+    visibility: hidden;
+}
 
