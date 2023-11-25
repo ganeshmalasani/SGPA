@@ -15,6 +15,11 @@ function semse(){
         case 3:
         document.getElementById("formu").reset();
         s3();
+        break;
+        case 4:
+        document.getElementById("formu").reset();
+        s4();
+        break;
 
         
 
@@ -90,7 +95,41 @@ function s3()
 }
 
 
+function s4()
+{
+    document.getElementById("maths").innerHTML='Mathematical Foundations';
+    document.getElementById("mat").placeholder="21MATCS41";
+    
+    document.getElementById("physics").innerHTML='Design & Analysis of Algorithm';
+    document.getElementById("chem").placeholder="21CS42";
 
+    document.getElementById("pspp").innerHTML='Microcontroller & Embedded Systems';
+    document.getElementById("psp").placeholder="21CS43";
+
+    document.getElementById("elnn").innerHTML='Operating Systems';
+    document.getElementById("eln").placeholder="21CS44";
+
+    document.getElementById("emee").innerHTML="Biology for ENgineers";
+    document.getElementById("eme").placeholder="21BE45";
+
+    document.getElementById("chelab").innerHTML="Python Lab";
+    document.getElementById("chel").placeholder="21CSL46";
+
+    document.getElementById("cplab").innerHTML="CIP";
+    document.getElementById("cpl").placeholder="21CIP47";
+
+    document.getElementById("eng").innerHTML="R PROGRAMMING";
+    document.getElementById("egh2").placeholder="21CSL483";
+
+    document.getElementById("sfhh").innerHTML="UHV";
+    document.getElementById("sfh").placeholder="21UH49";
+
+    console.log("SEM 4");
+
+  
+
+    
+}
 
 
 
@@ -130,6 +169,27 @@ function calculate()
            
             var finalsgpa=(m1*3+m2*4+m3*4+m4*3+m5*1+m6+m7+m8)/18;
             document.getElementById("display-sgpa").innerHTML = "SGPA: "+finalsgpa.toFixed(2);
+        break;
+
+        case 4:
+
+        var m1=get_grade(parseInt(document.getElementById("mat").value));
+            var m2=get_grade(parseInt(document.getElementById("chem").value));
+            var m3=get_grade(parseInt(document.getElementById("psp").value));
+            var m4=get_grade(parseInt(document.getElementById("eln").value));
+            var m5=get_grade(parseInt(document.getElementById("eme").value));
+            var m6=get_grade(parseInt(document.getElementById("chel").value));
+            var m7=get_grade(parseInt(document.getElementById("cpl").value));
+            var m8=get_grade(parseInt(document.getElementById("egh2").value));
+            var m9=get_grade(parseInt(document.getElementById("extra").value));
+            
+            let temp3=document.getElementById("popup");
+            temp3.classList.add("open-pop-up");
+           
+            var finalsgpa=(m1*3+m2*4+m3*4+m4*3+m5*2+m6+m7+m8+m9*2)/22;
+            document.getElementById("display-sgpa").innerHTML = "SGPA: "+finalsgpa.toFixed(2);
+        break;
+
         
     }
     
